@@ -1,0 +1,38 @@
+.start_component{
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+
+}
+.left_side{
+    width: 50%;
+    background:url("/src/assets/Groupe\ de\ masques\ 1@2x.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+}
+.right_side{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.part_one{
+
+    background:url("/src/assets/Groupe\ de\ masques\ 2.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.part_two{
+    height: 50vh;
+    background:url("/src/assets/Groupe\ de\ masques\ 3.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
