@@ -1,11 +1,12 @@
 import React from 'react';
 import "./StartComponent.css";
+import LeftSide from '../LeftSide/LeftSide';
 
 const StartComponent = () => {
   return (
     <div className='start_component'>
         <div className='left_side'>
-            left
+            <LeftSide />
         </div>
         <div className='right_side'>
             <div className='part_one'>
