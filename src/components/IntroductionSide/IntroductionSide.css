@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
+.side_introduction_elem {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  padding: 2rem 0 2rem 5%;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 0px;
+  opacity: 1;
+
+}
+
+.arsela_logo {
+  width: 206px;
+  height: 47px;
+}
+
+.side_introduction_box {
+  display: grid;
+  grid-template-columns: 18% 82%;
+  margin: 80px 0;
+  padding: 0;
+}
+/* font: normal normal normal 20px/30px Poppins; */
+.tech_test {
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  font-weight: 400;
+  line-height: 30px;
+  color: #ffffff;
+  font-size: 20px;
+  width: 500px;
+  height: 511px;
+}
+
+.services {
+  font-size: 65px;
+  font-weight: 500;
+  line-height: 98px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.services_box {
+  margin-top: 5rem;
+}
+
+.paragrah_services {
+  font-weight: 400;
+  line-height: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 453px;
+  margin: 35px 0;
+}
+.btn_edit {
+  margin-top: 4rem;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 2px solid #ffffff;
+  border-radius: 28px;
+  color: #7859d7;
+  padding: 6px  91px 10px;
+  width: 303;
+  height: 55px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+@media only screen and (max-width: 768px) {
+  .btn_edit{
+      width: 200px;
+      padding: 0;
+  }
+  .paragrah_services {
+  width: 70%;
+  }
+  .tech_test {
+    position: relative;
+    top: 250px;
+    right: 250px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 20px;
+    width: 500px;
+    height: 0px;
+  }
+}

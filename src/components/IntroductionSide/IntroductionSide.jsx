@@ -1,16 +1,16 @@
 import React from "react";
 import ArselaLogo from "../../assets/arsela-technologies-white@2x.png";
-import "./LeftSide.css";
+import "./IntroductionSide.css";
 
 const LeftSide = () => {
   return (
-    <div className="left_side_elem">
+    <div className="side_introduction_elem">
       <img
         className="arsela_logo"
         src={ArselaLogo}
         alt="arsela-technologies-logo"
       />
-      <div className="left_side_box">
+      <div className="side_introduction_box">
         <p className="tech_test">TECHNICAL TEST FOR FRONTEND DEVELOPER</p>
 
         <div>

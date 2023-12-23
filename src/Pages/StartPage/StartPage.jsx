@@ -1,11 +1,11 @@
 import React from 'react';
 import "./StartPage.css";
-import StartComponent from '../../components/StartComponent/StartComponent';
+import ContainerPDF from '../../components/ContainerPDF/ContainerPDF';
 
 const StartPage = () => {
   return (
     <div className='start_page' >
-        <StartComponent />
+        <ContainerPDF />
     </div>
   )
 }
