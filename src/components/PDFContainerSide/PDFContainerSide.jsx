@@ -2,11 +2,11 @@ import React from 'react'
 import "./PDFContainerSide.css"
 import InitPDFSide from '../InitPDFSide/InitPDFSide'
 
-const PDFContainerSide = () => {
+const PDFContainerSide = ({showPDF}) => {
   return (
     <>
             <div className='part_one'>
-                <InitPDFSide />
+                <InitPDFSide showPDF={showPDF} />
             </div>
             {/* EditorPDFSide */}
             <div className='part_two'>

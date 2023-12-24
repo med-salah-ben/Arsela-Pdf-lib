@@ -5,17 +5,21 @@ import PDFContainerSide from '../PDFContainerSide/PDFContainerSide';
 
 //ContainerPDF
 const ContainerPDF = () => {
-  // const [showPDF, setShowPDF] = useState(false);
+  const [showPDF, setShowPDF] = useState(false);
+  console.log(showPDF)
+  const handleEdit = ()=>{
+    setShowPDF(!showPDF)
+  }
   return (
     // ContainerPDF
     <div className='start_component'>
   
         <div className='side_introduction'>
-            <LeftSide />
+            <LeftSide showPDF={showPDF} handleEdit={handleEdit} />
         </div>
 
         <div className='right_side'>
-            <PDFContainerSide />
+            <PDFContainerSide showPDF={showPDF} />
             {/* InitPDFSide */}
 
         </div>

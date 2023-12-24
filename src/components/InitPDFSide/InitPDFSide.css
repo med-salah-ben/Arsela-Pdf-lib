@@ -42,19 +42,17 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .start_editing {
-    margin-top: 50%;
-  }
-  .start_editing {
-    font-size: 21px;
-  }
-  .pdf_editor_para {
-    font-size: 25px;
-  }
-  .pdf_editor_title {
-    font-size: 30px;
-  }
   .init_PDF_side {
-    margin-top: 150px;
+    margin-top: 50px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    letter-spacing: 0px;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 ;
+    
   }
 }

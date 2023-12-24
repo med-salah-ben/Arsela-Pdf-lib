@@ -2,7 +2,7 @@ import React from "react";
 import ArselaLogo from "../../assets/arsela-technologies-white@2x.png";
 import "./IntroductionSide.css";
 
-const LeftSide = () => {
+const LeftSide = ({handleEdit , showPDF}) => {
   return (
     <div className="side_introduction_elem">
       <img
@@ -10,6 +10,7 @@ const LeftSide = () => {
         src={ArselaLogo}
         alt="arsela-technologies-logo"
       />
+      {!showPDF ? <></> : <span className="btn_back" onClick={handleEdit}> &lt;Back</span>}
       <div className="side_introduction_box">
         <p className="tech_test">TECHNICAL TEST FOR FRONTEND DEVELOPER</p>
 
@@ -21,7 +22,7 @@ const LeftSide = () => {
           <p className="paragrah_services">
             Build your business apps and automate your tasks without coding.
           </p>
-          <button className="btn_edit">Edit a PDF</button>
+          <button className="btn_edit" onClick={handleEdit}>Edit a PDF</button>
         </div>
       </div>
     </div>

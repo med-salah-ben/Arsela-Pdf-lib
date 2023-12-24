@@ -17,7 +17,15 @@
   width: 206px;
   height: 47px;
 }
-
+.btn_back{
+  /* background-color: transparent; */
+  color: #ffffff;
+  height:28px ;
+  width: 60px;
+  position: relative;
+  top: 48px;
+  cursor: pointer;
+}
 .side_introduction_box {
   display: grid;
   grid-template-columns: 18% 82%;
@@ -26,13 +34,16 @@
 }
 /* font: normal normal normal 20px/30px Poppins; */
 .tech_test {
+  position: relative;
+  top: 250px;
+  right: 250px;
   transform: matrix(0, -1, 1, 0, 0, 0);
   font-weight: 400;
   line-height: 30px;
   color: #ffffff;
   font-size: 20px;
   width: 500px;
-  height: 511px;
+  height: 0;
 }
 
 .services {

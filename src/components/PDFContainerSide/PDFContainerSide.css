@@ -4,14 +4,15 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 60vh;
+    z-index: 5;
 }
 /* bg_bl */
 .part_two{
-    height: 50vh;
+    height: 60vh;
     background:url("/src/assets/Groupe\ de\ masques\ 3.svg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    z-index: 0;
 }
